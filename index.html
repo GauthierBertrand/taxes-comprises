@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Taxes comprises</title>
+		<meta name="description" content="Calcul rapide du prix taxes incluses pour chaque province du Canada">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Baskervville&family=EB+Garamond&display=swap" rel="stylesheet">
+	</head>
+
+	<body class="container">
+
+		<div class="container-fluid">
+
+			<h1>TAXES COMPRISES</h1>
+
+			<div class="input-group input-group-lg">
+				<span class="input-group-text" id="inputGroup-sizing-lg">Montant
+					<br>
+					hors taxes</span>
+				<input type="number" class="form-control" id="montantHt" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+			</div>
+
+			<div id="radios">
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe1" value="5" checked>
+					<label class="form-check-label" for="exampleRadios1">
+						Alberta - Nunavut - Territoires du Nord-Ouest - Yukon
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe2" value="12">
+					<label class="form-check-label" for="exampleRadios2">
+						Colombie Britannique - Manitoba
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe3" value="15">
+					<label class="form-check-label" for="exampleRadios1">
+						Île du prince Edouard - Nouveau Brunswick - Nouvelle &#201;cosse - Terre neuve et labrador
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe4" value="13">
+					<label class="form-check-label" for="exampleRadios2">
+						Ontario
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe5" value="14.975" checked>
+					<label class="form-check-label" for="exampleRadios1">
+						Québec
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe6" value="11">
+					<label class="form-check-label" for="exampleRadios2">
+						Saskatchewan
+					</label>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+		<script src='js/app.js'></script>
+		<script src='js/taxesCalculator.js'></script>
+	</body>
+</html>
