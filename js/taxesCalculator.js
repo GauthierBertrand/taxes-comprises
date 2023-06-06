@@ -40,7 +40,7 @@ const TaxesCalculator = {
     }
 
     //place the display result div in dom
-    parentDiv.appendChild(divElement);
+    parentDiv.before(divElement);
   },
 
   init: function () {
