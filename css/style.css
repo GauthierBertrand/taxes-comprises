@@ -56,4 +56,7 @@ h1 {
     font-size: large;
     font-weight: unset;
   }
+  h1 {
+    font-size: xx-large;
+  }
 }
