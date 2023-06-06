@@ -34,7 +34,7 @@ const TaxesCalculator = {
     // if ttc not exist place a message else place result
     if (!ttc) {
       divElement.textContent =
-        "Veuillez entrer un montant hors taxes puis sélectionner une région.";
+        "Veuillez entrer un montant hors taxes puis sélectionner une province/territoire.";
     } else {
       divElement.textContent = "Total = " + ttc + " $";
     }
