@@ -24,46 +24,24 @@
 				<span class="input-group-text" id="inputGroup-sizing-lg">Montant
 					<br>
 					hors taxes</span>
-				<input type="number" class="form-control" id="montantHt" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+				<input type="number" class="form-control" id="montantHt" aria-label="Dollar amount" aria-describedby="inputGroup-sizing-lg">
+				<span class="input-group-text" id="inputGroup-sizing-lg">$</span>
 			</div>
 
-			<div id="radios">
-				<div class="form-check">
-					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe1" value="5" checked>
-					<label class="form-check-label" for="exampleRadios1">
-						Alberta - Nunavut - Territoires du Nord-Ouest - Yukon
-					</label>
-				</div>
-				<div class="form-check">
-					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe2" value="12">
-					<label class="form-check-label" for="exampleRadios2">
-						Colombie Britannique - Manitoba
-					</label>
-				</div>
-				<div class="form-check">
-					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe3" value="15">
-					<label class="form-check-label" for="exampleRadios1">
-						Île du prince Edouard - Nouveau Brunswick - Nouvelle &#201;cosse - Terre neuve et labrador
-					</label>
-				</div>
-				<div class="form-check">
-					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe4" value="13">
-					<label class="form-check-label" for="exampleRadios2">
-						Ontario
-					</label>
-				</div>
-				<div class="form-check">
-					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe5" value="14.975" checked>
-					<label class="form-check-label" for="exampleRadios1">
-						Québec
-					</label>
-				</div>
-				<div class="form-check">
-					<input class="form-check-input" type="radio" name="exampleRadios" id="taxe6" value="11">
-					<label class="form-check-label" for="exampleRadios2">
-						Saskatchewan
-					</label>
-				</div>
+			<div class="container d-flex align-items-center  flex-column " id="radios">
+
+				<button class="taxe-select btn btn-light " id="taxe4" value="13">Ontario</button>
+
+				<button class="taxe-select btn btn-light " id="taxe5" value="14.975">Québec</button>
+
+				<button class="taxe-select btn btn-light " id="taxe6" value="11">Saskatchewan</button>
+
+				<button class="taxe-select btn btn-light " id="taxe2" value="12">Colombie Britannique - Manitoba</button>
+
+				<button class="taxe-select btn btn-light " id="taxe1" value="5">Alberta - Nunavut - Territoires du Nord-Ouest - Yukon</button>
+
+				<button class="taxe-select btn btn-light " id="taxe3" value="15">Île du prince Edouard - Nouveau Brunswick - Nouvelle &#201;cosse - Terre neuve et labrador</button>
+
 			</div>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

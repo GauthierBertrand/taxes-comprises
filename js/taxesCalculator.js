@@ -24,7 +24,7 @@ const TaxesCalculator = {
     divElement.setAttribute("id", "result");
 
     //Animation for a smooth apparition for the display result div
-    divElement.animate([{ opacity: 0 }, { opacity: 1 }], 950);
+    divElement.animate([{ opacity: 0 }, { opacity: 0.7 }], 950);
 
     //Remove the display result div if exist
     if (document.getElementById("result")) {
@@ -45,7 +45,7 @@ const TaxesCalculator = {
 
   init: function () {
     //place an eventLisner on every radio button with a loop
-    test = document.getElementsByClassName("form-check-input");
+    test = document.getElementsByClassName("taxe-select");
 
     for (let i = 0; i < test.length; i++) {
       test[i].addEventListener("click", TaxesCalculator.handleCalc);
