@@ -24,7 +24,7 @@ const TaxesCalculator = {
     divElement.setAttribute("id", "result");
 
     //Animation for a smooth apparition for the display result div
-    divElement.animate([{ opacity: 0 }, { opacity: 0.7 }], 950);
+    divElement.animate([{ opacity: 0 }, { opacity: 0.7 }], 200);
 
     //Remove the display result div if exist
     if (document.getElementById("result")) {
