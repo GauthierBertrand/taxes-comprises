@@ -34,7 +34,7 @@ footer{
 .link{
   color: grey;
 }
-
+/*
 .neon {
   text-align: center;
   color: #ffffff;
@@ -64,7 +64,7 @@ footer{
       0 0 120px rgb(230, 18, 124);
   }
 }
-
+*/
 #currencies {
   width: 75px;
   color: whitesmoke;
